@@ -1,0 +1,464 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* ESTILO DE LA FONT IMPORTADA */
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-size: 22px;
+    font-family: time news roman;
+}
+
+/* BODY */
+body {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+/* MAIN */
+main {
+    width: 100%;
+    height: auto;
+}
+
+/* PORTADA PRINCIPAL */
+.portada {
+    background-image: url(https://milkbaronline.org/wp-content/uploads/2020/01/dragon-ball-super-manga-33-espa%C3%B1ol-latino-radardeldragon.com-20-1024x745.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.70);
+}
+.img-div-img{
+    max-height: 16.7em;
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow:  0 0 20px 5px black;
+}
+.img-caption {
+    padding-top: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: time news Roman;
+}
+.main-h1 {
+    font-family: "Cedarville Cursive", cursive, sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.70);
+    font-size: 4rem;
+    text-decoration: underline; 
+    text-shadow: 1px 1px 5px black;
+    padding-bottom: 40px;
+    max-width: 100%; 
+}
+
+/* PARRAFO PRINCIPAL */
+.divPrincipal {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#a90000, yellow);
+    padding: 20px;
+    text-align: justify;
+    color: #ffffff;
+    box-shadow: 0 0 10px black;
+    border-bottom: 5px solid #000000; 
+}
+.Principal-p {
+    text-indent: 20px;
+    font-size: 24px;
+    font-family: time news roman;
+}
+
+/* SEGMENTO CARRERA */
+.divCarrera {
+    background-image: url(https://wallpapercave.com/wp/wp3830867.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+.contenedorCarrera{
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.Carrera-h2 {
+    text-shadow: 0 0 15px red;
+    padding-bottom: 20px;
+    -webkit-text-stroke: 0.7px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.7px red; /* Para navegadores no basados en WebKit */
+    font-family: Roboto;
+}
+.Carrera-ul {
+    padding-left: 5%;
+    padding-right: 5%;
+    list-style-type: none;
+}
+.Carrera-ul-li{
+    padding-bottom: 25px;
+    padding-left: 2.6rem;
+    background-image: url(https://i.pinimg.com/736x/ea/f9/0a/eaf90a261d94356cc81aee3b2144d442.jpg);
+    background-position: 0 0;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+}
+
+.Carrera-ul-li > p > b {
+    color: #a90000; 
+    text-shadow: 0 0 15px #a90000; 
+    -webkit-text-stroke: 0.5px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.5px red; /* Para navegadores no basados en WebKit */
+}
+span{
+    color: #a90000; 
+    text-shadow: 0 0 15px #a90000; 
+    -webkit-text-stroke: 0.5px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.5px red; /* Para navegadores no basados en WebKit */
+    font-weight: bold;
+}
+
+/* SEGMENTO DE PREMIOS Y RECONOCIMIENTOS */
+.Premios{
+    width: 100%;
+    height: auto;
+    background-color: orangered;
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px yellow;
+    text-align: justify;
+}
+.Premios-h2 {
+    color: black;
+    text-shadow: 0 10px 15px yellow;
+    padding-bottom: 20px;
+    -webkit-text-stroke: 0.7px black; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.7px black; /* Para navegadores no basados en WebKit */
+    font-family: ROBOTO;
+}
+.Premios-ul {
+    padding-left: 5%;
+    padding-right: 5%;
+    list-style-type: none;
+}
+.Premios-ul-li{
+    padding-bottom: 25px;
+    padding-left: 2.6rem;
+    background-image: url(https://i.pinimg.com/564x/f8/a8/10/f8a81065ad3424d4631efe0841777e81.jpg);
+    background-position: 0 0;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+}
+.Premios-ul-li > p > b{
+    color: black; 
+    text-shadow: 0 0 15px yellow; 
+    -webkit-text-stroke: 0.5px black; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.5px black; /* Para navegadores no basados en WebKit */
+}
+.Reconocimientos{
+    width: 100%;
+    height: auto;
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    border-bottom: 5px solid #000000; 
+    text-align: justify;
+}
+.Reconocimientos-h2 {
+    color: yellow;
+    text-shadow: 0 10px 15px black;
+    padding-bottom: 20px;
+    -webkit-text-stroke: 0.7px black; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.7px black; /* Para navegadores no basados en WebKit */
+    font-family: ROBOTO;
+    text-align: right;
+}
+.Reconocimientos-ul {
+    padding-left: 5%;
+    padding-right: 5%;
+    list-style-type: none;
+}
+.Reconocimientos-ul-li{
+    padding-bottom: 25px;
+    padding-left: 2.6rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6tga8q9Yt-u-yUmOfBXi_RV0FrQvZLaO7kA&s);
+    background-position: 0 0;
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+}
+.Reconocimientos-ul-li > p > b{
+    color: yellow; 
+    text-shadow: 0 0 15px black; 
+    -webkit-text-stroke: 0.5px black; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.5px black; /* Para navegadores no basados en WebKit */
+}
+
+/* SEGMENTO DE OBRAS */
+
+.divObras {
+    background-image: url(https://somoskudasai.com/wp-content/uploads/2024/07/FYvXhKuUUAAGvfi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.Obras{
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 100%;
+    height: auto;
+    padding: 50px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+.Obras-h2 {
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 15px red;
+    font-size: 3rem;
+    -webkit-text-stroke: 0.5px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.5px red; /* Para navegadores no basados en WebKit */
+    font-family: Roboto;
+}
+.obra{
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5px 5px black;
+    width: 22rem;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 5px;
+}
+.obra-h3 {
+    font-size: 1.5rem;
+    border-bottom: 5px solid #a90000;
+    padding-bottom: 5px;
+    width: 100%;
+    font-family: ROBOTO;
+}
+.obra-h4 {
+    font-size: 1.1rem;
+}
+.obra-img {
+    /* width: 28.75rem; */
+    width: 14.37rem;
+    /* height: 43.125rem; */
+    height: 21.5rem;
+    border: 1px solid black;
+    border-top: 5px solid #a90000;
+}
+
+/* SEGMENTO PERSONAJE FAVORITO DE AKIRA TORIYAMA */
+
+.PersonajeFav {
+    width: 100%;
+    height: auto;
+    background-color: #033ffc;
+    color: #000000;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    border-bottom: 5px solid #000000; 
+    text-align: justify;
+    margin-top: 20px;
+}
+.PersonajeFav-h2{
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: 0 0 15px aqua;
+    font-family: ROBOTO;
+}
+.PersonajeFav-h4{
+    padding: 20px 15px;
+    text-align: left;
+    text-shadow: 0 0 15px aqua;
+    font-family: ROBOTO;
+}
+.PersonajeFavFlex{ 
+    display: flex;
+    
+}
+.PersonajeFav-img{
+    max-height: 60rem;
+    height: auto;
+    max-width: 100%;
+    box-shadow: 0 0 25px aqua;
+}
+.PersonajeFav-p {
+    text-align: justify;
+    text-indent: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 22px;
+    font-family: time news roman;
+}
+
+/* SEGMENTO DE CURIOSIDADES */
+
+.divCuriosidades {
+    background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2024/03/08/17099091537811.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+.Curiosidades {
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.Curiosidades-h2 {
+    text-shadow: 0 0 15px #a90000;
+    padding-bottom: 20px;
+    -webkit-text-stroke: 0.7px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.7px red; /* Para navegadores no basados en WebKit */
+     font-family: ROBOTO;
+}
+.Curiosidades-ul {
+    padding-left: 5%;
+    list-style-type: none;
+}
+.Curiosidades-ul-li {
+    padding-bottom: 10px;
+    padding-left: 2rem;
+    background-image: url(https://img.icons8.com/?size=100&id=Fg_1mwX-EwWy&format=png&color=000000);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+/* OCULTO ESTE PARRAFO PORQUE ME GUSTARIA PONERLO EN EL FOOTER Y EN LA PAGINA DE FreeCodeCamp 
+QUIEREN QUE LO PONGA EN EL MAIN*/
+.parrafoHidden {
+    display: none;
+}
+
+/* FOOTER */
+.footer {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to bottom, #000000, rgb(95, 0, 0));
+    box-shadow: 0 0 10px #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+.divFooter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 20px;
+    gap: 2em;
+}
+
+/* FOOTER - IMAGEN */
+.divFooter-img {
+    max-height: 8em;
+    height: auto;
+    max-width: 100%;
+    margin-top: -1.35em; /* Puse esto para que se centre la imagen porque tiene un espacio invisible arriba */
+}
+
+/* FOOTER - REFERENCIAS */
+.Referencias-h2{
+    color: yellow;
+    text-shadow: 0 0 15px #a90000;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    -webkit-text-stroke: 0.7px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.7px red; /* Para navegadores no basados en WebKit */
+     font-family: ROBOTO;
+     text-align: center;
+}
+.Referencias-ul{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+}
+.Referencias-ul-li{
+    height: 1.5em;
+    padding: 2px 0;
+    font-family: ROBOTO;
+    text-align: center;
+}
+
+
+
+/* LINKS DEL FOOTER */
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer a:hover {
+    -webkit-text-stroke: 0.7px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.7px red; /* Para navegadores no basados en WebKit */
+}
+
+
+/* FOOTER - COPYRIGHT */
+.footerCopyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerCopyright-P{
+    padding: 10px;
+    font-size: 0.75em;
+    display: inline;
+    text-align: justify;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px) {
+    .PersonajeFavFlex {
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+    }
+    .PersonajeFav-img {
+        margin: 0 auto 10px;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .divFooter-img {
+        margin: 0 5em;
+    }
+}
